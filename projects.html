@@ -6,131 +6,334 @@
 <title>Projects — Ilham Rinanda</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <nav class="navbar">
-  <div class="nav-inner">
-    <div class="logo">
-      <span class="dots"><span></span><span></span><span></span></span>
-      <span class="path">~/portofolio/</span><span class="filename">projects.html</span><span class="cursor-blink"></span>
-    </div>
-    <button class="nav-toggle" aria-label="Buka menu">☰</button>
-    <ul class="nav-tabs">
-      <li><a href="index.html">home.html</a></li>
-      <li><a href="about.html">about.html</a></li>
-      <li><a href="projects.html" class="active">projects.html</a></li>
-      <li><a href="contact.html">contact.html</a></li>
-    </ul>
-  </div>
+<div class="nav-inner">
+
+<div class="logo">
+<span class="dots"><span></span><span></span><span></span></span>
+<span class="path">~/portfolio/</span>
+<span class="filename">projects.html</span>
+<span class="cursor-blink"></span>
+</div>
+
+<button class="nav-toggle">☰</button>
+
+<ul class="nav-tabs">
+<li><a href="index.html">home.html</a></li>
+<li><a href="about.html">about.html</a></li>
+<li><a href="projects.html" class="active">projects.html</a></li>
+<li><a href="contact.html">contact.html</a></li>
+</ul>
+
+</div>
 </nav>
 
 <section class="section" style="padding-top:70px;">
-  <div class="container">
-    <p class="section-label">projects</p>
-    <h2 class="section-title">Project yang <span class="gradient-text">pernah saya buat</span></h2>
-    <p class="section-sub">
-      Beberapa project kuliah, mandiri, dan Tugas Akhir yang jadi tempat saya belajar
-      paling banyak.
-    </p>
 
-    <div class="project-grid">
+<div class="container">
 
-      <div class="project-card reveal">
-        <div class="project-thumb">preview_1.png</div>
-        <div class="project-body">
-          <p class="project-name">tugas-akhir/</p>
-          <h3 class="project-title">Implementasi dan Analisis Two-Factor Authentication Untuk Mitigasi Serangan Pada Layanan SSH</h3>
-          <p class="project-desc">
-            Menerapkan lapisan autentikasi tambahan (2FA) pada layanan SSH untuk mencegah serangan brute-force dan unauthorized access, serta menganalisis efektivitasnya dibanding autentikasi password biasa.
-          </p>
-          <div class="project-tags">
-            <span class="tag">React</span>
-            <span class="tag">Node.js</span>
-            <span class="tag">MySQL</span>
-          </div>
-          <div class="project-links">
-            <a href="#" target="_blank" rel="noopener">↗ Live Demo</a>
-            <a href="#" target="_blank" rel="noopener">⌘ Source Code</a>
-          </div>
+<p class="section-label">
+projects
+</p>
+
+<h2 class="section-title">
+
+Project
+<span class="gradient-text">
+
+Yang Pernah Saya Kerjakan
+
+</span>
+
+</h2>
+
+<p class="section-sub">
+
+Berikut beberapa project yang pernah saya kerjakan selama perkuliahan,
+penelitian tugas akhir, serta pengembangan aplikasi berbasis web dan mobile.
+
+</p>
+
+<div class="project-grid">
+
+<!-- ================= PROJECT 1 ================= -->
+
+<div class="project-card reveal">
+
+    <div class="project-thumb">
+        TA-2FA-SSH
+    </div>
+
+    <div class="project-body">
+
+        <p class="project-name">
+            final-project/
+        </p>
+
+        <h3 class="project-title">
+            Implementasi dan Analisis Two-Factor Authentication (2FA) untuk Mitigasi Serangan Brute Force pada Layanan SSH
+        </h3>
+
+        <p class="project-desc">
+            Penelitian tugas akhir yang berfokus pada peningkatan keamanan layanan SSH
+            menggunakan Two-Factor Authentication (2FA) berbasis TOTP.
+            Pengujian dilakukan pada VPS Ubuntu Server dengan simulasi serangan brute force
+            menggunakan Hydra untuk menganalisis efektivitas penerapan 2FA.
+        </p>
+
+        <div class="project-tags">
+
+            <span class="tag">Ubuntu Server</span>
+
+            <span class="tag">OpenSSH</span>
+
+            <span class="tag">Google Authenticator</span>
+
+            <span class="tag">Hydra</span>
+
+            <span class="tag">TOTP</span>
+
+            <span class="tag">Linux</span>
+
         </div>
-      </div>
 
-      <div class="project-card reveal">
-        <div class="project-thumb">preview_2.png</div>
-        <div class="project-body">
-          <p class="project-name">sistem-informasi/</p>
-          <h3 class="project-title">Nama Project 2</h3>
-          <p class="project-desc">
-            Aplikasi manajemen data untuk studi kasus tertentu, lengkap dengan
-            fitur CRUD dan dashboard sederhana.
-          </p>
-          <div class="project-tags">
-            <span class="tag">Laravel</span>
-            <span class="tag">Tailwind</span>
-            <span class="tag">MySQL</span>
-          </div>
-          <div class="project-links">
-            <a href="#" target="_blank" rel="noopener">↗ Live Demo</a>
-            <a href="#" target="_blank" rel="noopener">⌘ Source Code</a>
-          </div>
-        </div>
-      </div>
+        <div class="project-links">
 
-      <div class="project-card reveal">
-        <div class="project-thumb">preview_3.png</div>
-        <div class="project-body">
-          <p class="project-name">mobile-app/</p>
-          <h3 class="project-title">Nama Project 3</h3>
-          <p class="project-desc">
-            Aplikasi mobile hasil project tim, fokus pada pengalaman pengguna
-            yang simpel dan cepat.
-          </p>
-          <div class="project-tags">
-            <span class="tag">Flutter</span>
-            <span class="tag">Firebase</span>
-          </div>
-          <div class="project-links">
-            <a href="#" target="_blank" rel="noopener">↗ Live Demo</a>
-            <a href="#" target="_blank" rel="noopener">⌘ Source Code</a>
-          </div>
-        </div>
-      </div>
+            <a href="#">
+                ↗ Coming Soon
+            </a>
 
-      <div class="project-card reveal">
-        <div class="project-thumb">preview_4.png</div>
-        <div class="project-body">
-          <p class="project-name">web-portfolio/</p>
-          <h3 class="project-title">Website Portofolio Ini</h3>
-          <p class="project-desc">
-            Website yang sedang kamu lihat sekarang — dibangun dari nol dengan
-            HTML, CSS, dan JavaScript murni.
-          </p>
-          <div class="project-tags">
-            <span class="tag">HTML</span>
-            <span class="tag">CSS</span>
-            <span class="tag">JavaScript</span>
-          </div>
-          <div class="project-links">
-            <a href="#" target="_blank" rel="noopener">↗ Live Demo</a>
-            <a href="#" target="_blank" rel="noopener">⌘ Source Code</a>
-          </div>
+            <a href="#">
+                ⌘ Source Code
+            </a>
+
         </div>
-      </div>
 
     </div>
-  </div>
+
+</div>
+
+
+
+
+
+<!-- ================= PROJECT 2 ================= -->
+
+<div class="project-card reveal">
+
+    <div class="project-thumb">
+        absensi-gps-api
+    </div>
+
+    <div class="project-body">
+
+        <p class="project-name">
+            laravel-api/
+        </p>
+
+        <h3 class="project-title">
+            Sistem Absensi GPS Berbasis Laravel API
+        </h3>
+
+        <p class="project-desc">
+            Membangun REST API absensi berbasis Laravel yang memanfaatkan koordinat GPS
+            untuk proses absensi masuk dan pulang.
+            Sistem dilengkapi autentikasi Sanctum,
+            validasi radius lokasi,
+            riwayat absensi,
+            serta pengujian endpoint menggunakan Postman.
+        </p>
+
+        <div class="project-tags">
+
+            <span class="tag">Laravel</span>
+
+            <span class="tag">PHP</span>
+
+            <span class="tag">MySQL</span>
+
+            <span class="tag">Sanctum</span>
+
+            <span class="tag">REST API</span>
+
+            <span class="tag">Postman</span>
+
+        </div>
+
+        <div class="project-links">
+
+            <a href="#">
+                ↗ Coming Soon
+            </a>
+
+            <a href="#">
+                ⌘ Source Code
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+<!-- ================= PROJECT 3 ================= -->
+
+<div class="project-card reveal">
+
+    <div class="project-thumb">
+        portfolio-web
+    </div>
+
+    <div class="project-body">
+
+        <p class="project-name">
+            portfolio/
+        </p>
+
+        <h3 class="project-title">
+            Website Portfolio Personal
+        </h3>
+
+        <p class="project-desc">
+            Website portofolio pribadi dengan desain modern bertema Code Editor.
+            Dibangun menggunakan HTML, CSS, dan JavaScript yang responsive
+            serta dilengkapi animasi, halaman About, Projects, Contact,
+            dan tombol WhatsApp langsung.
+        </p>
+
+        <div class="project-tags">
+
+            <span class="tag">HTML5</span>
+
+            <span class="tag">CSS3</span>
+
+            <span class="tag">JavaScript</span>
+
+            <span class="tag">Responsive</span>
+
+            <span class="tag">GitHub Pages</span>
+
+        </div>
+
+        <div class="project-links">
+
+            <a href="#">
+                ↗ Live Demo
+            </a>
+
+            <a href="https://github.com/Ilhamkerennn/portfolio-ilham" target="_blank">
+                ⌘ Source Code
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+<!-- ================= PROJECT 4 ================= -->
+
+<div class="project-card reveal">
+
+    <div class="project-thumb">
+        flutter-app
+    </div>
+
+    <div class="project-body">
+
+        <p class="project-name">
+            mobile-app/
+        </p>
+
+        <h3 class="project-title">
+            Aplikasi Mobile Flutter
+        </h3>
+
+        <p class="project-desc">
+            Pengembangan aplikasi mobile menggunakan Flutter
+            sebagai media pembelajaran pembuatan antarmuka modern,
+            integrasi API, Firebase, serta manajemen data pada perangkat Android.
+        </p>
+
+        <div class="project-tags">
+
+            <span class="tag">Flutter</span>
+
+            <span class="tag">Firebase</span>
+
+            <span class="tag">Dart</span>
+
+            <span class="tag">Android</span>
+
+        </div>
+
+        <div class="project-links">
+
+            <a href="#">
+                ↗ Coming Soon
+            </a>
+
+            <a href="#">
+                ⌘ Source Code
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 
 <footer>
-  <div class="gradient-line"></div>
-  <p>&copy; 2026 Nama Kamu. Dibuat dengan HTML, CSS &amp; JavaScript.</p>
+
+<div class="gradient-line"></div>
+
+<p>
+
+© 2026 Ilham Rinanda. Dibuat dengan HTML, CSS & JavaScript.
+
+</p>
+
 </footer>
 
-<a class="wa-float" href="https://wa.me/6282179446793?text=Halo%2C%20saya%20ingin%20bertanya" target="_blank" rel="noopener" aria-label="Hubungi via WhatsApp">
-  <span class="wa-tooltip">Chat via WhatsApp</span>
-  <svg viewBox="0 0 32 32"><path d="M16.004 3C9.376 3 4 8.373 4 15c0 2.34.68 4.52 1.86 6.36L4 29l7.82-1.82A11.93 11.93 0 0 0 16 27c6.63 0 12-5.37 12-12S22.63 3 16 3zm0 21.7c-1.9 0-3.7-.5-5.26-1.44l-.38-.22-4.64 1.08 1.1-4.52-.25-.4A9.66 9.66 0 0 1 5.3 15c0-5.9 4.8-10.7 10.7-10.7S26.7 9.1 26.7 15 21.9 24.7 16 24.7zm5.85-8.02c-.32-.16-1.9-.94-2.2-1.05-.3-.11-.5-.16-.72.16-.21.32-.82 1.05-1 1.26-.19.21-.37.24-.69.08-.32-.16-1.34-.5-2.55-1.6-.94-.85-1.58-1.9-1.76-2.22-.18-.32-.02-.5.14-.65.14-.14.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.02-.56-.08-.16-.72-1.74-.99-2.38-.26-.62-.53-.54-.72-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.11 1.08-1.11 2.64s1.14 3.06 1.3 3.27c.16.21 2.24 3.42 5.42 4.8.76.33 1.35.53 1.81.67.76.24 1.45.21 2 .13.61-.09 1.9-.78 2.17-1.53.27-.75.27-1.4.19-1.53-.08-.13-.29-.21-.61-.37z"/></svg>
+<a class="wa-float"
+href="https://wa.me/6282179446793?text=Halo%20Ilham,%20saya%20tertarik%20dengan%20project%20Anda."
+target="_blank"
+rel="noopener"
+aria-label="Hubungi via WhatsApp">
+
+<span class="wa-tooltip">
+
+Chat via WhatsApp
+
+</span>
+
+<svg viewBox="0 0 32 32">
+
+<path d="M16.004 3C9.376 3 4 8.373 4 15c0 2.34.68 4.52 1.86 6.36L4 29l7.82-1.82A11.93 11.93 0 0 0 16 27c6.63 0 12-5.37 12-12S22.63 3 16 3zm0 21.7c-1.9 0-3.7-.5-5.26-1.44l-.38-.22-4.64 1.08 1.1-4.52-.25-.4A9.66 9.66 0 0 1 5.3 15c0-5.9 4.8-10.7 10.7-10.7S26.7 9.1 26.7 15 21.9 24.7 16 24.7zm5.85-8.02c-.32-.16-1.9-.94-2.2-1.05-.3-.11-.5-.16-.72.16-.21.32-.82 1.05-1 1.26-.19.21-.37.24-.69.08-.32-.16-1.34-.5-2.55-1.6-.94-.85-1.58-1.9-1.76-2.22-.18-.32-.02-.5.14-.65.14-.14.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.02-.56-.08-.16-.72-1.74-.99-2.38-.26-.62-.53-.54-.72-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.11 1.08-1.11 2.64s1.14 3.06 1.3 3.27c.16.21 2.24 3.42 5.42 4.8.76.33 1.35.53 1.81.67.76.24 1.45.21 2 .13.61-.09 1.9-.78 2.17-1.53.27-.75.27-1.4.19-1.53-.08-.13-.29-.21-.61-.37z"/>
+
+</svg>
+
 </a>
 
 <script src="script.js"></script>
+
 </body>
+
 </html>
